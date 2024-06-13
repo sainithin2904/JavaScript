@@ -16,3 +16,14 @@ const c = "12";
 console.log(c);
 // c = "new"
 // console.log(c) will show error
+function sum(a,b){
+  console.log(`the result is ${a+b}`)
+  return(a+b)
+}
+console.log(sum(5,6))
+
+{
+    let temp = 5
+    console.log(temp) // 5 on the console
+}
+console.log(temp) // temp not defined
