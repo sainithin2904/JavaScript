@@ -1,6 +1,6 @@
 Local variables: Declare a variable inside of a block or function.
 Global variables: Declare a variable outside function or with a window object.
 Mainly there are 3 types keywords to declare a variable
-  1. Let
-  2. Var
-  3. Const
+  1. Var - It has global scope
+  2. let - It’s block-scoped 
+  3. Const It’s block-scoped but cant reassign the once  declared
